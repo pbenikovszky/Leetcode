@@ -15,4 +15,4 @@ var climbStairs = function (n) {
 
 module.exports = climbStairs
 
-console.log(climbStairs(5))
+console.log(climbStairs(6))

@@ -31,8 +31,8 @@ var divide = function (dividend, divisor) {
   return Math.min(Math.pow(2, 31) - 1, Math.max(result, -Math.pow(2, 31)))
 }
 
-console.time()
-const result = divide(1, 1)
+console.time('Divide')
+const result = divide(372, 6)
 // const result = divide(-2147483648, 1)
-console.timeEnd()
+console.timeEnd('Divide')
 console.log(result)
